@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/app_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#2196F3"
+        android:text="출결앱 로그인"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/naver_gourl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#00FF0A"
+        android:onClick="NaverGoUrl"
+        android:text="네이버 접속하기"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/hp_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#4CAF50"
+        android:onClick="HpTel"
+        android:text="전화걸기"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/new_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FF0000"
+        android:onClick="NewActivity"
+        android:text="새창띄우기"
+        android:textSize="24sp" />
+
+</LinearLayout>
